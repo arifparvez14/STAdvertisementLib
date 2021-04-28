@@ -5,10 +5,10 @@ Pod::Spec.new do |spec|
 
   spec.name         = "STAdvertisementLib"
   spec.version      = "0.0.1"
-  spec.summary      = "STAdvertisementLib app is a library app for the ST user which is helps you perform calculation"
+  spec.summary      = "STAdvertisementLib app is a library app for the ST user"
 
   spec.description  = <<-DESC
- This CocoaPods library helps you perform calculation.
+ This CocoaPods library helps you perform meaningful calculation like addition and others.
                    DESC
 
   spec.homepage     = "http://EXAMPLE/STAdvertisementLib"
