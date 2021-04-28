@@ -16,6 +16,7 @@
 		4AE858B2263930D0004FDE64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE858B0263930D0004FDE64 /* Main.storyboard */; };
 		4AE858B4263930D1004FDE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AE858B3263930D1004FDE64 /* Assets.xcassets */; };
 		4AE858B7263930D1004FDE64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE858B5263930D1004FDE64 /* LaunchScreen.storyboard */; };
+		4AE858C326393336004FDE64 /* STLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE858C226393336004FDE64 /* STLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		4AE858B3263930D1004FDE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AE858B6263930D1004FDE64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AE858B8263930D1004FDE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AE858C226393336004FDE64 /* STLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				4AE8588B2639304C004FDE64 /* STAdvertisementLib.h */,
 				4AE8588C2639304C004FDE64 /* Info.plist */,
+				4AE858C226393336004FDE64 /* STLib.swift */,
 			);
 			path = STAdvertisementLib;
 			sourceTree = "<group>";
@@ -201,6 +204,7 @@
 				TargetAttributes = {
 					4AE858872639304C004FDE64 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					4AE858902639304C004FDE64 = {
 						CreatedOnToolsVersion = 12.4;
@@ -262,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE858C326393336004FDE64 /* STLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +443,7 @@
 		4AE8589D2639304C004FDE64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9LHQZHWCYW;
@@ -456,6 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sharetrip.net.STAdvertisementLib;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -464,6 +471,7 @@
 		4AE8589E2639304C004FDE64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 9LHQZHWCYW;
@@ -490,6 +498,7 @@
 		4AE858A02639304C004FDE64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LHQZHWCYW;
 				INFOPLIST_FILE = STAdvertisementLibTests/Info.plist;
@@ -508,6 +517,7 @@
 		4AE858A12639304C004FDE64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9LHQZHWCYW;
 				INFOPLIST_FILE = STAdvertisementLibTests/Info.plist;
