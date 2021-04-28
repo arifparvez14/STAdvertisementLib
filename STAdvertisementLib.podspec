@@ -22,7 +22,6 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/arifparvez14/STAdvertisementLib.git", :tag => "#{spec.version}" }
   spec.source_files  = "STAdvertisementLib/**/*.{h,m,swift}"
-  spec.resources = "STAdvertisementLib/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 
 end
