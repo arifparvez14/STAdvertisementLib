@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AE829B8263E8D7C007BF9D4 /* AddView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AE829B6263E8D7C007BF9D4 /* AddView.xib */; };
+		4AE829B9263E8D7C007BF9D4 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE829B7263E8D7C007BF9D4 /* AddView.swift */; };
+		4AE829C3263E8DDC007BF9D4 /* BaggageNotFoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE829C2263E8DDC007BF9D4 /* BaggageNotFoundView.swift */; };
 		4AE858922639304C004FDE64 /* STAdvertisementLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE858882639304C004FDE64 /* STAdvertisementLib.framework */; };
 		4AE858972639304C004FDE64 /* STAdvertisementLibTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE858962639304C004FDE64 /* STAdvertisementLibTests.swift */; };
 		4AE858992639304C004FDE64 /* STAdvertisementLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AE8588B2639304C004FDE64 /* STAdvertisementLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,6 +33,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4AE829B6263E8D7C007BF9D4 /* AddView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddView.xib; sourceTree = "<group>"; };
+		4AE829B7263E8D7C007BF9D4 /* AddView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		4AE829C2263E8DDC007BF9D4 /* BaggageNotFoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BaggageNotFoundView.swift; path = ../BaggageNotFoundView.swift; sourceTree = "<group>"; };
 		4AE858882639304C004FDE64 /* STAdvertisementLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = STAdvertisementLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AE8588B2639304C004FDE64 /* STAdvertisementLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STAdvertisementLib.h; sourceTree = "<group>"; };
 		4AE8588C2639304C004FDE64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -99,6 +105,9 @@
 				4AE8588B2639304C004FDE64 /* STAdvertisementLib.h */,
 				4AE8588C2639304C004FDE64 /* Info.plist */,
 				4AE858C226393336004FDE64 /* STLib.swift */,
+				4AE829C2263E8DDC007BF9D4 /* BaggageNotFoundView.swift */,
+				4AE829B7263E8D7C007BF9D4 /* AddView.swift */,
+				4AE829B6263E8D7C007BF9D4 /* AddView.xib */,
 			);
 			path = STAdvertisementLib;
 			sourceTree = "<group>";
@@ -239,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE829B8263E8D7C007BF9D4 /* AddView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE829B9263E8D7C007BF9D4 /* AddView.swift in Sources */,
+				4AE829C3263E8DDC007BF9D4 /* BaggageNotFoundView.swift in Sources */,
 				4AE858C326393336004FDE64 /* STLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "STAdvertisementLib"
-  spec.version      = "0.0.2"
+  spec.version      = "0.0.3"
   spec.summary      = "STAdvertisementLib app is a library app for the ST user"
 
   spec.description  = <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
 
   spec.source       = { :git => "https://github.com/arifparvez14/STAdvertisementLib.git", :tag => "#{spec.version}" }
-  spec.source_files  = "STAdvertisementLib/**/*.{h,m,swift}"
+  spec.source_files  = "STAdvertisementLib/**/*.{h,m,swift,xib}"
 
 
 end
