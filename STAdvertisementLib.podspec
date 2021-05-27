@@ -2,7 +2,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "STAdvertisementLib"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "STAdvertisementLib app is a library app for the ST user"
 
   spec.description  = <<-DESC
